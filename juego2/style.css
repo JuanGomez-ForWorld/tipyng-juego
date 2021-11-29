@@ -1,0 +1,31 @@
+*{  
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    height: 100vh;
+    background-color: chocolate;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.boxOfInfo{
+    background-color: black;
+    width: 460px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.point, .time{
+ font-size: 20px;
+}
+
+.juego{
+    background-color: white;
+    width: 460px;
+    height: 550px;
+}
